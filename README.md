@@ -43,4 +43,24 @@ A cross-platform automation toolkit for IT professionals to diagnose, troublesho
 
 ### PowerShell
 ```powershell
+# Run the script from PowerShell (ensure execution policy allows it)
 .\scripts\network_diagnostics.ps1
+```
+
+### Bash
+```bash
+# Make the script executable
+chmod +x scripts/network_diagnostics.sh
+
+# Run the script
+./scripts/network_diagnostics.sh
+```
+
+### Python
+```bash
+# Ensure Python 3 is installed, then run the script
+python3 scripts/network_diagnostics.py
+```
+
+> Note: You may need `sudo` privileges for certain operations like DNS flushing or IP renewal on Linux/macOS.
+
